@@ -1,7 +1,5 @@
-
 > **Disclaimer**
-> This Artifact was either created by Saviynt or by Saviynt Community users. This is an export from the Saviynt Identity Cloud (IC) and can be imported to any Saviynt environment.
->
+> This Artifact was either created by Saviynt or by Saviynt Community users and an export from the Saviynt Identity Cloud (IC) environment and can be imported to any Saviynt environment.
 > If same name of object is available in your environment, please unzip downloaded file, open JSON file, change name of object under “class of object” listed under “Objects” and zip the file again to upload to your environment.  
 
 
@@ -33,7 +31,7 @@ Some Text:
 
   
 
-### Prerequisites
+## Prerequisites
 
 | **Object** | **Purpose** | 
 | ------------ | ----------- |
@@ -53,4 +51,4 @@ To troubleshoot common problems with
 
 # Troubleshooting
 
-To troubleshoot common problems with 
+To troubleshoot common problems with
