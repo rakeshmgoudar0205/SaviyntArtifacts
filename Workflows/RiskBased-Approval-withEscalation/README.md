@@ -37,8 +37,6 @@ Some Text:
 | ------------ | ----------- |
 | EIC | Release v5.5 and later| 
 
-# Understanding the Artifact ===================================================================
-
 Some texts:
 
 *   some text here as well
