@@ -6,11 +6,10 @@
 
 
 *   [Introduction](#introduction)
-    *   [How it works ?](#Working Model)
+    *   [How it works ?](#WorkingModel)
     *   [Prerequisites](#Prerequisites)  
-*   [Understanding the Artifact](# Understanding the Artifact)
-    
-*   [Integration Steps? ](#Integration Steps)
+   
+*   [Integration Steps? ](#IntegrationSteps)
 
 *   [Troubleshooting](#troubleshooting)
 
@@ -27,7 +26,7 @@ Some text.
 
 **Note:** This guide provides information about using the sample listed Artifact only.
 
-## Working Model
+## WorkingModel
 
 
 Some Text:
@@ -46,7 +45,7 @@ Some texts:
 
 *   some text here as well
     
-# Integration Steps
+# IntegrationSteps
 
 To troubleshoot common problems with 
    
