@@ -1,4 +1,4 @@
-# Saviynt Connection Setup and Sample Collection
+# Saviynt Connection Collection
 
 This collection is provided as a sample only. Please review the latest documentation before running jobs or importing data to ensure compliance with the most current best practices and guidelines.
 
