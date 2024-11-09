@@ -1,2 +1,0 @@
-# SaviyntArtifacts Pending for Documentation
-
