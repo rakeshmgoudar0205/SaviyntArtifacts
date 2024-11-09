@@ -66,11 +66,11 @@ Saviynt offers a connector module to establish connections with AD for identity 
 
    - Specify whether it is AD or LDAP.
    
-   ![Workflow Diagram](./images/visual1.png)
-
 2. **Configure Search and Object Filters**:
    - Set a search filter as the starting point for importing data (e.g., `o=jgty.com`).
    - Define an object filter as a logical expression, e.g., `(&(objectClass=jgtyPerson)(jgtySerialNumber=*))`.
+
+   ![Workflow Diagram](./images/visual1.png)
 
 3. **Map Account Attributes**:
    - Example mapping includes:
@@ -81,22 +81,25 @@ Saviynt offers a connector module to establish connections with AD for identity 
 
 4. **Define Entitlement and Page Size**:
    - Specify entitlement attributes and page size (number of records returned per call).
-   
-     ![Workflow Diagram](./images/visual2.png) 
+
 
 5. **Define JSON Templates for Account Operations**:
    - **Create Account JSON**: Define parameters like `objectClass`, `jgtySerialNumber`, `sn`, `mail`, `manager`, etc.
    - **Update Account JSON**: Modify existing account details as needed using similar attributes.
+   
+     ![Workflow Diagram](./images/visual2.png) 
 
 6. **Set Additional Options**:
    - **Base**: Set a base search filter, e.g., `OU=HiFind,O=jgty.com`.
    - **Account Name Rule**: Define rules for generating account names from Saviynt data.
    
     ![Workflow Diagram](./images/visual3.png)
-	![Workflow Diagram](./images/visual4.png)
+
 
 7. **Remove Account Action**:
    - Define a JSON structure for account deletion, e.g., `{ "distinguishedName": "${account.accountID}", "removeAction": "DELETE" }`.
+
+	![Workflow Diagram](./images/visual4.png)
 
 8. **Configure Password Policies**:
    - Define rules such as minimum and maximum password lengths, required capital letters, digits, and special characters.
