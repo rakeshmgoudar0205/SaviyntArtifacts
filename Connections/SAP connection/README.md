@@ -1,6 +1,5 @@
-# Sample SAP Connector Setup Guide
+# Sample SAP Connector 
 
-## Introduction
 Saviynt EIC offers out-of-the-box (OOB) capabilities to integrate SAP applications with Saviynt using SAP connectors. Saviynt provides OOB templates that can be configured accordingly.
 
 ## How It Works

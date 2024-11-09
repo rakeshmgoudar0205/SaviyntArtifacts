@@ -1,12 +1,4 @@
-# Saviynt Database (DB) Connector
-
-This **Saviynt DB Connector** enables integration with database applications to import accounts and entitlements into Saviynt’s Identity Governance platform. By leveraging this connector, organizations can map, import, and manage user data from databases, supporting identity governance and compliance requirements.
-
-## Introduction
-
-Saviynt Enterprise Identity Cloud (EIC) offers an out-of-the-box (OOB) capability to integrate database applications using a Saviynt DB connector. The platform provides OOB templates, which can be configured to support specific organizational requirements.
-
-## How It Works
+# Saviynt Database (DB) Connector for Application Integration
 
 The DB Connector is configured to establish a secure connection between the source application database and Saviynt. This integration supports operations like data reconciliation and user provisioning, enabling synchronized and centralized identity management.
 

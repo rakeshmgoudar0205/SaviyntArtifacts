@@ -1,8 +1,4 @@
-# Saviynt Database Connectors
-
-This repository provides sample configurations for integrating database applications with Saviynt using out-of-the-box (OOB) database connectors. The connectors can be configured to pull user, account, and entitlement data from a database and map it into Saviynt fields.
-
-## Introduction
+# Saviynt Database Connectors for user or HR Directory integration
 
 Saviynt EIC offers the capability to integrate database applications with Saviynt through configurable database connectors. Saviynt provides OOB templates that can be customized to meet specific integration needs. This README describes how to configure the connectors for pulling users, accounts, and entitlements from a database.
 
