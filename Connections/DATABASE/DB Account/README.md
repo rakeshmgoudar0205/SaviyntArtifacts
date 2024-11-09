@@ -21,11 +21,16 @@ To ensure smooth connectivity and secure data transfer, the following prerequisi
 Below are the basic steps for setting up the DB Connector:
 
 1. **Create a Database Connection**:
+
+	![Workflow Diagram](./images/visual.png)
+
    - **Connection Name**: Provide a descriptive name for the connection.
    - **Connection Type**: Select "DB" as the connection type to load the appropriate template.
    - **Database URL**: Specify the database hostname and schema.
    - **Username and Password**: Enter credentials for database access.
    - **Driver Name**: Select the database driver, e.g., `com.mysql.jdbc.Driver` for MySQL.
+   
+	![Workflow Diagram](./images/visual1.png)
 
 2. **Account Import Configuration**:
    - Use an XML file to map and import account data into Saviynt fields.
