@@ -26,6 +26,9 @@ To configure this workflow, the following components are needed:
 
 ## Workflow Overview
 
+
+![Workflow Diagram](./images/visual.png)
+
 1. **Manager Approval Block:** Uses two email templates for approval and reminders. Approved requests move to Level 2 if required, while rejections send a denial notification. Escalations may route requests to a secondary manager, or, if no action is taken, follow rejection protocols.
 
 2. **Risk-Based Conditions (IF-ELSE / Fallback Check Rank 1):** This block checks if:
