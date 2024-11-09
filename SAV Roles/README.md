@@ -7,7 +7,7 @@ In Saviynt, **SAV roles** (Saviynt Access Viewer roles) are predefined access ro
 ### Role Definitions
 SAV roles are preconfigured with specific permissions to support various functions within the Saviynt ecosystem, such as managing users, applications, policies, and reports. Each role has a set of permissions that define what users can see (view permissions) and do (action permissions) within Saviynt, including creating, modifying, or viewing reports, access requests, and user attributes. Roles are assigned based on organizational needs, allowing certain users to perform administrative functions while limiting access for others.
 
-### Types of SAV Roles
+### Few Example of SAV Roles
 Saviynt provides various SAV roles for identity and access management functions. Common SAV roles include:
 - **Admin Roles**: Full administrative access to Saviynt modules, including user management, system configurations, and access policies.
 - **Access Approver**: Permissions to review and approve access requests within a defined scope.
