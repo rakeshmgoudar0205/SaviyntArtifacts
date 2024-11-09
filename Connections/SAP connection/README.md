@@ -13,7 +13,13 @@ Before starting operations like reconciliation and provisioning, network connect
 To create an SAP connection, follow these steps:
 
 1. Set a connection name.
+
+	![Workflow Diagram](./images/visual.png)
+
 2. Select the connection type as SAP to load the SAP-specific template.
+
+	![Workflow Diagram](./images/visual1.png)
+	
 3. **MESSAGESERVER**: Set to `TRUE` if a Message Server is used; typically, this is set to `FALSE`.
 4. **JCO_AHOST**: Hostname for the SAP instance connection for data import.
 5. **JCO_SYSNR**: System number of the SAP instance for import.
@@ -21,6 +27,9 @@ To create an SAP connection, follow these steps:
 7. **JCO_USER**: Username for connecting to SAP.
 8. **Password**: Password for the SAP connection.
 9. **JCO_LANG**: Language for the SAP instance (e.g., `EN` for English).
+
+	![Workflow Diagram](./images/visual2.png)
+
 10. **SNC**: Set to `TRUE` if Secure Network Connection (SNC) is enabled.
 11. **JCO_SNC_MODE**: Enable/Disable SNC mode (`0` for disabled, `1` for enabled).
 12. **Tables**: Include the following tables in order: USR02, USR04, USER_ADDR, USRACL, USR06, TSTC, TSTCT, AGR_AGRS, AGR_TEXTS, AGR_DEFINE, AGR_USERS, USORG, AGR_1252, AGR_1251.
@@ -28,6 +37,8 @@ To create an SAP connection, follow these steps:
 14. **TERMINATED_USER_ROLE_ACTION**: Set to `DELETEACCOUNT` to delete roles for terminated users.
 
 ## Provisioning JSON Configuration
+
+	![Workflow Diagram](./images/visual3.png)
 
 15. **Create Account JSON**: JSON format to specify new account details.
     ```json
@@ -64,8 +75,13 @@ To create an SAP connection, follow these steps:
 19. **PROV_JCO_USER**: Username for provisioning.
 20. **PROV_Password**: Password for provisioning.
 21. **PROV_JCO_LANG**: Language for provisioning (e.g., `EN`).
+
+	![Workflow Diagram](./images/visual4.png)
+
 22. **PROV_CUA_ENABLED**: `FALSE` by default.
 23. **RESET_PWD_FOR_NEWACCOUNT**: Determines if passwords should reset for pre-existing users in CUA-enabled systems.
+
+	![Workflow Diagram](./images/visual5.png)
 
 ## Additional JSON Configurations
 
