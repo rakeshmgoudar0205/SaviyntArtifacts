@@ -37,4 +37,25 @@ All changes related to SAV roles (e.g., assignments, permission changes) are log
 ## Example SAV Roles
 
 ### 1. IT Administrator Role
-- **Purpose**: Fo
+- **Purpose**: For IT administrators managing users, access policies, and configurations.
+- **Permissions**:
+  - Full administrative access to user and identity management, provisioning, and de-provisioning.
+  - Permissions to modify application configurations, roles, and workflows.
+  - Ability to create and update access policies, including SoD rules.
+- **Usage**: The IT administrator can manage and enforce access policies, handle access requests, and maintain configurations, ensuring alignment with security standards.
+
+### 2. IT Auditor Role (View-Only)
+- **Purpose**: For IT auditors needing read-only access to audit logs, reports, and compliance data for review.
+- **Permissions**:
+  - View-only access to audit logs and access request history, enabling tracking of access changes and assignments.
+  - Read access to system configurations, user roles, and permission settings.
+  - Ability to generate and export compliance reports without modification permissions.
+- **Usage**: IT auditors use this view-only role to review system access patterns, verify role assignments, and support regulatory compliance without altering data.
+
+## How These Roles Support IAM Objectives
+
+- **Enhanced Security**: By defining specific permissions, the IT administrator can handle configurations while the IT auditor can review data independently, reducing risk and maintaining data integrity.
+- **Segregation of Duties (SoD)**: These roles follow SoD principles, ensuring that auditors don’t have system change permissions, and administrators don’t have unchecked authority over logs.
+- **Compliance Support**: View-only access for auditors allows for secure compliance processes without exposing critical settings to unauthorized changes.
+
+Saviynt’s flexible SAV roles empower administrators, auditors, and other key stakeholders, supporting security and compliance while facilitating efficient and effective access management.
