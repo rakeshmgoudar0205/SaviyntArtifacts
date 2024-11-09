@@ -1,4 +1,4 @@
-# Kick Off Decks (SaviyntArtifacts)
+# Kick Off Decks
 
 This collection provides three sample project kick-off decks in .pptx format to streamline the initiation phase of your Saviynt implementations.
 
