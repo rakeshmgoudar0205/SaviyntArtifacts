@@ -61,7 +61,7 @@ Saviynt offers a connector module to establish connections with AD for identity 
    - Enter the URL of the AD instance to connect.
    - Provide the username and password for authentication.
 	 
-      ![Workflow Diagram](./images/visual.png)
+	![Workflow Diagram](./images/visual.png)
    
 
    - Specify whether it is AD or LDAP.
@@ -70,7 +70,7 @@ Saviynt offers a connector module to establish connections with AD for identity 
    - Set a search filter as the starting point for importing data (e.g., `o=jgty.com`).
    - Define an object filter as a logical expression, e.g., `(&(objectClass=jgtyPerson)(jgtySerialNumber=*))`.
 
-   ![Workflow Diagram](./images/visual1.png)
+	![Workflow Diagram](./images/visual1.png)
 
 3. **Map Account Attributes**:
    - Example mapping includes:
@@ -87,13 +87,13 @@ Saviynt offers a connector module to establish connections with AD for identity 
    - **Create Account JSON**: Define parameters like `objectClass`, `jgtySerialNumber`, `sn`, `mail`, `manager`, etc.
    - **Update Account JSON**: Modify existing account details as needed using similar attributes.
    
-     ![Workflow Diagram](./images/visual2.png) 
+	![Workflow Diagram](./images/visual2.png) 
 
 6. **Set Additional Options**:
    - **Base**: Set a base search filter, e.g., `OU=HiFind,O=jgty.com`.
    - **Account Name Rule**: Define rules for generating account names from Saviynt data.
    
-    ![Workflow Diagram](./images/visual3.png)
+	![Workflow Diagram](./images/visual3.png)
 
 
 7. **Remove Account Action**:
