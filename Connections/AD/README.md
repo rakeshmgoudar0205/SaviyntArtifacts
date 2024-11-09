@@ -60,7 +60,13 @@ Saviynt offers a connector module to establish connections with AD for identity 
    - Select the connection type as AD.
    - Enter the URL of the AD instance to connect.
    - Provide the username and password for authentication.
+	 
+      ![Workflow Diagram](./images/visual.png)
+   
+
    - Specify whether it is AD or LDAP.
+   
+   ![Workflow Diagram](./images/visual1.png)
 
 2. **Configure Search and Object Filters**:
    - Set a search filter as the starting point for importing data (e.g., `o=jgty.com`).
@@ -75,6 +81,8 @@ Saviynt offers a connector module to establish connections with AD for identity 
 
 4. **Define Entitlement and Page Size**:
    - Specify entitlement attributes and page size (number of records returned per call).
+   
+     ![Workflow Diagram](./images/visual2.png) 
 
 5. **Define JSON Templates for Account Operations**:
    - **Create Account JSON**: Define parameters like `objectClass`, `jgtySerialNumber`, `sn`, `mail`, `manager`, etc.
@@ -83,15 +91,22 @@ Saviynt offers a connector module to establish connections with AD for identity 
 6. **Set Additional Options**:
    - **Base**: Set a base search filter, e.g., `OU=HiFind,O=jgty.com`.
    - **Account Name Rule**: Define rules for generating account names from Saviynt data.
+   
+    ![Workflow Diagram](./images/visual3.png)
+	![Workflow Diagram](./images/visual4.png)
 
 7. **Remove Account Action**:
    - Define a JSON structure for account deletion, e.g., `{ "distinguishedName": "${account.accountID}", "removeAction": "DELETE" }`.
 
 8. **Configure Password Policies**:
    - Define rules such as minimum and maximum password lengths, required capital letters, digits, and special characters.
-
+	
+	![Workflow Diagram](./images/visual4.png)
+	
 9. **Status Threshold Configuration**:
    - Configure thresholds for active and inactive account statuses, e.g., using `customproperty30` as the status column.
+   
+	![Workflow Diagram](./images/visual5.png)
 
 ### Troubleshooting
 
