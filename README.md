@@ -1,6 +1,6 @@
 **Disclaimer**
 
-This Artifact collection was either created by Saviynt and its Community users. Some objects are an export from the Saviynt Identity Cloud (IC) environment. It can be imported to any Saviynt environment.
+This Artifact collection was created by Saviynt and its Community users. Some objects are an export from the Saviynt Identity Cloud (IC) environment. It can be imported to any Saviynt environment.
 
 If the same name of an object is already available in your environment, please follow these steps:
 
