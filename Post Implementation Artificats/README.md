@@ -1,7 +1,5 @@
 # Post-Implementation Artifacts
 
-## Overview
-
 In **Saviynt**, post-implementation artifacts are typically used by the **Operations team** to update entitlements, user attributes, and account properties in alignment with organizational requirements. These tasks can be performed through the **Saviynt UI** or by utilizing available artifacts from Saviynt forums. This collection provides examples of such artifacts to guide partners or implementation teams in generating these files, helping to reduce errors and improve efficiency for the **Managed Services team**.
 
 These artifacts are especially useful for **UAT**, **DEMO**, and **Testing** activities. They allow you to modify objects and monitor events, enabling you to test use cases and integrations effectively.
