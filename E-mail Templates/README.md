@@ -1,19 +1,4 @@
-# E-mail Template - Access Request Workflows (Saviynt Artifact)
-
-**Disclaimer**
-
-This Artifact was either created by Saviynt or by Saviynt Community users and is an export from the Saviynt Identity Cloud (IC) environment. It can be imported to any Saviynt environment.
-
-If the same name of an object is already available in your environment, please follow these steps:
-
-1. Unzip the downloaded file.
-2. Open the JSON file and change the name of the object under "class of object" listed under "Objects".
-3. Zip the file again to upload it to your environment.
-
-**Note:** This guide provides information about using the sample listed Artifact only.
-
-
-## Introduction
+# E-mail Template
 
 **E-mail Template** is a standard object used to share the status of various operations with Users. These templates are commonly used for notifications, alerts, and other information/status sharing. This collection contains 10 email templates used for Access Request Approval and Rejection Workflows.
 

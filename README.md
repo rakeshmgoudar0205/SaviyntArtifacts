@@ -1,3 +1,16 @@
+**Disclaimer**
+
+This Artifact collection was either created by Saviynt and its Community users. Some objects are an export from the Saviynt Identity Cloud (IC) environment. It can be imported to any Saviynt environment.
+
+If the same name of an object is already available in your environment, please follow these steps:
+
+1. Unzip the downloaded file.
+2. Open the JSON file and change the name of the object under "class of object" listed under "Objects".
+3. Zip the file again to upload it to your environment.
+
+**Note:** This guide provides information about using the sample listed Artifact only.
+
+
 # Saviynt Artifacts Collection
 
 This collection aims to improve the overall efficiency of Saviynt implementation, leading to faster Time to Value (TTV). It contains various artifacts commonly used in projects and major initiatives across Saviynt product lines. These artifacts have been tested in multiple projects over the past few years.
