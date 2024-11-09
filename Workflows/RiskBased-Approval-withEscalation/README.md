@@ -1,4 +1,4 @@
-# RiskBased Approval with Escalation
+# Risk Based Approval with Escalation
 
 ## Purpose
 This workflow is designed for use in the Saviynt Access Request System (ARS) to manage any requestable entitlement or access.
