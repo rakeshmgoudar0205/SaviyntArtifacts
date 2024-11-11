@@ -1,9 +1,8 @@
 # Schema-Based File Account Import in Saviynt EIC
 
-## Introduction
+
 Saviynt Enterprise Identity Cloud (EIC) provides an out-of-the-box (OOB) capability to automate manual account reconciliation using schema-based account import. This process enables efficient synchronization of account data through schema-based jobs configured within Saviynt.
 
-## How It Works
 Saviynt’s schema-based account jobs allow for the automated reconciliation (recon) of manually managed accounts by importing data files into the system.
 
 ## Prerequisites
