@@ -44,6 +44,8 @@ Navigate to the Job Control Panel in Saviynt EIC and create a new job:
 - **Success**: After a successful job run, the CSV file will be moved to the `success` folder for archiving.
 - **Failure**: If the job fails, the CSV file will be moved to the `fail` folder for troubleshooting.
 
+	![Diagram](./images/visual.png)
+
 ## Account and Entitlement Correlation
 Account and entitlement data can be imported together, enabling correlation during the import process.
 
