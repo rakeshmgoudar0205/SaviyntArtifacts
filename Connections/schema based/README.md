@@ -2,22 +2,6 @@
 
 Saviynt Schema Jobs are essential for maintaining data alignment between Saviynt and connected applications, supporting critical processes such as provisioning, access control, compliance, and risk management. Schema Jobs ensure that Saviynt has accurate, up-to-date information on user attributes, roles, and entitlements, enabling effective identity governance and administration.
 
-## Table of Contents
-- [Overview](#overview)
-- [Key Functions](#key-functions)
-  - [Schema Discovery and Metadata Mapping](#schema-discovery-and-metadata-mapping)
-  - [User and Entitlement Aggregation](#user-and-entitlement-aggregation)
-  - [Provisioning and Access Management](#provisioning-and-access-management)
-  - [Compliance and Access Certification](#compliance-and-access-certification)
-- [Summary](#summary)
-
----
-
-## Overview
-
-Saviynt Schema Jobs automate the process of synchronizing metadata (e.g., user attributes, accounts, entitlements, roles) between Saviynt and various target systems. They play a crucial role in enabling Saviynt to accurately manage identity governance by keeping its data aligned with connected systems.
-
----
 
 ## Key Functions
 
