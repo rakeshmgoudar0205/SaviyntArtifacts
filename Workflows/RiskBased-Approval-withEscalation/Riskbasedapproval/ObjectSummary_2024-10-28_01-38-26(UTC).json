@@ -1,0 +1,16 @@
+{
+  "Objects": {
+    "workflows": 
+    [
+      "RiskBased-Approval-WithEscalation1"
+    ]
+  },
+  "Information": {
+    "GUID": "f6e6b945-af7d-4dd1-87db-46cdcbfccec2",
+    "Exported By": "admin",
+    "Exported On": "2024-10-28 01:38:22",
+    "System": "saviynt-partner.saviyntcloud.com",
+    "TransferOwners": "0",
+    "TransferUsers": "0"
+  }
+}
