@@ -258,7 +258,7 @@ This section outlines how user provisioning and deprovisioning are handled using
     {
       "name": "call1",
       "connection": "userAUTH",
-      "url": "https://dev240991.service-now.com/api/now/table/sys_user",
+      "url": "https://Customer-SNOW-INSTANCE.service-now.com/api/now/table/sys_user",
       "httpMethod": "POST",
       "httpParams": "{\"city\":\"${user.city}\",\"country\":\"${user.country}\",\"email\":\"${user.email}\",\"first_name\":\"${user.firstname}\",\"last_name\":\"${user.lastname}\",\"phone\":\"${user.phonenumber}\",\"employee_number\":\"${user.employeeid}\",\"user_name\":\"${user.username}\",\"u_fullname\":\"${user.displayname}\",\"u_employement_type\":\"${user.employeeclass}\",\"u_discovery_source\":\"Saviynt\"}",
       "httpHeaders": {
@@ -382,7 +382,7 @@ This section outlines how user provisioning and deprovisioning are handled using
     {
       "name": "Group",
       "connection": "userAuth",
-      "url": "https://khcprod.service-now.com/api/now/v1/table/sys_user_grmember?user=${account.accountID}",
+      "url": "https://Customer-SNOW-INSTANCE.service-now.com/api/now/v1/table/sys_user_grmember?user=${account.accountID}",
       "httpMethod": "GET",
       "httpHeaders": {
         "Authorization": "${access_token}"
