@@ -1,6 +1,6 @@
 **Disclaimer**
 
-This Artifact collection was created by Saviynt and its Community users. Some objects were an export from the Saviynt Identity Cloud (IC) environment and can be imported to any Saviynt Identity Cloud environment and version.
+This Artifact collection was created by Saviynt and its Community users. Some objects were an export from the Saviynt Identity Cloud (IC) environment and can be imported to any Saviynt Identity Cloud environment's version.
 
 If the same name of an object is already available in your environment, please follow these steps:
 
@@ -16,6 +16,8 @@ If the same name of an object is already available in your environment, please f
 This collection aims to improve the overall efficiency of Saviynt implementation, leading to faster Time to Value (TTV). It contains various artifacts commonly used in projects and major initiatives across Saviynt product lines. These artifacts have been tested in multiple projects over the past few years.
 
 ## Collection Highlights
+
+* **Analytics:** Collection of few performance related Analytics.
 
 * **Kick Off Decks:** Three presentation templates for project kickoffs - one for executives, one for Privileged Access Management (PAM), and a generic template for any project/initiative.
 * **Application Onboarding Sheets:** Effective templates to gather information from application owners, facilitating efficient data collection and management. These multi-project tested templates help document requirements and information crucial for application/service rollout. They are general-purpose and can be used for any integration. The collection includes a JML template for HR/Source of Truth integrations and a specific template for collecting PAM information from machines and service accounts.
