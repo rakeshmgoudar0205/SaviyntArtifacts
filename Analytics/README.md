@@ -1,7 +1,6 @@
 # Saviynt Performance Analytics
 
 This document outlines a set of performance-focused analytics designed to monitor and evaluate key operational components within the Saviynt platform. Each entry includes a unique analytic name, category, and the corresponding SQL query used to extract insights from the platform’s database.
-
 ---
 
 ## 1. **User Import Success Rate**
